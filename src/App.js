@@ -1,22 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+
+import { RateApp } from "capacitor-rate-app";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          onClick={() => { RateApp.requestReview() }}
         >
-          Learn React
-        </a>
+          Request review
+        </button>
       </header>
     </div>
   );
