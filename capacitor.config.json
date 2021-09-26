@@ -1,8 +1,6 @@
 {
-  "appId": "com.rateapp.demo",
+  "appId": "com.demo.rateapp",
   "appName": "rate-app-demo",
-  "bundledWebRuntime": false,
-  "server": {
-    "url": "http://localhost:3000"
-  }
+  "webDir": "build",
+  "bundledWebRuntime": false
 }

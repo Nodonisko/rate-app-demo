@@ -1,0 +1,6 @@
+[
+	{
+		"pkg": "capacitor-rate-app",
+		"classpath": "com.capacitor.rateapp.CapacitorRateAppPlugin"
+	}
+]
